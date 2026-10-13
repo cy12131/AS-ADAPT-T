@@ -1,0 +1,6 @@
+run_id=varying-formal-prime-r3-adaptt
+server_pid=2967548
+monitor_cpu_set=12
+sample_interval_seconds=1
+started_utc=2026-08-25T17:14:33,844261207+00:00
+output_csv=<REDACTED_LOCAL_PATH>

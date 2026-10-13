@@ -1,0 +1,25 @@
+comparison,metric,relative_change_percent,ci95_low,ci95_high,n,df,numerator_lower_count,numerator_higher_count,analysis_method
+AS_ADAPT_T_vs_ADAPT_T,throughput,1.004857,-0.211471,2.236011,3,2,0,3,paired log-ratio; t CI on mean log-ratio
+AS_ADAPT_T_vs_ADAPT_T,mean_latency,8.821277,5.929265,11.792245,3,2,0,3,paired log-ratio; t CI on mean log-ratio
+AS_ADAPT_T_vs_ADAPT_T,p95,0.874963,-1.013119,2.799058,3,2,0,2,paired log-ratio; t CI on mean log-ratio
+AS_ADAPT_T_vs_ADAPT_T,p99,-29.379447,-34.483226,-23.878083,3,2,3,0,paired log-ratio; t CI on mean log-ratio
+AS_ADAPT_T_vs_ADAPT_T,p99_9,-36.195847,-44.495991,-26.654489,3,2,3,0,paired log-ratio; t CI on mean log-ratio
+AS_ADAPT_T_vs_ADAPT_T,weighted_window_p99,-25.191180,-32.953012,-16.530783,3,2,3,0,paired log-ratio; t CI on mean log-ratio
+AS_ADAPT_T_vs_ADAPT_T,A,-36.006754,-48.376326,-20.673304,3,2,3,0,paired log-ratio; t CI on mean log-ratio
+AS_ADAPT_T_vs_ADAPT_T,V,-76.361374,-78.016573,-74.581549,3,2,3,0,paired log-ratio; t CI on mean log-ratio
+AS_ADAPT_T_vs_QUEUE,throughput,1.149335,-0.018558,2.330871,3,2,0,3,paired log-ratio; t CI on mean log-ratio
+AS_ADAPT_T_vs_QUEUE,mean_latency,9.562101,2.991956,16.551374,3,2,0,3,paired log-ratio; t CI on mean log-ratio
+AS_ADAPT_T_vs_QUEUE,p95,2.092999,0.279811,3.938973,3,2,0,3,paired log-ratio; t CI on mean log-ratio
+AS_ADAPT_T_vs_QUEUE,p99,-31.714176,-43.976818,-16.767423,3,2,3,0,paired log-ratio; t CI on mean log-ratio
+AS_ADAPT_T_vs_QUEUE,p99_9,-39.533029,-51.634225,-24.404094,3,2,3,0,paired log-ratio; t CI on mean log-ratio
+AS_ADAPT_T_vs_QUEUE,weighted_window_p99,-29.160643,-42.740497,-12.360147,3,2,3,0,paired log-ratio; t CI on mean log-ratio
+AS_ADAPT_T_vs_QUEUE,A,-31.122839,-39.276842,-21.873904,3,2,3,0,paired log-ratio; t CI on mean log-ratio
+AS_ADAPT_T_vs_QUEUE,V,-49.053862,-51.024038,-47.004431,3,2,3,0,paired log-ratio; t CI on mean log-ratio
+ADAPT_T_vs_QUEUE,throughput,0.143041,-1.872668,2.200156,3,2,2,1,paired log-ratio; t CI on mean log-ratio
+ADAPT_T_vs_QUEUE,mean_latency,0.680772,-4.567598,6.217779,3,2,1,2,paired log-ratio; t CI on mean log-ratio
+ADAPT_T_vs_QUEUE,p95,1.207472,-2.308322,4.849795,3,2,1,2,paired log-ratio; t CI on mean log-ratio
+ADAPT_T_vs_QUEUE,p99,-3.306018,-14.610308,9.494787,3,2,2,1,paired log-ratio; t CI on mean log-ratio
+ADAPT_T_vs_QUEUE,p99_9,-5.230351,-12.860754,3.068212,3,2,3,0,paired log-ratio; t CI on mean log-ratio
+ADAPT_T_vs_QUEUE,weighted_window_p99,-5.306144,-16.058397,6.823389,3,2,3,0,paired log-ratio; t CI on mean log-ratio
+ADAPT_T_vs_QUEUE,A,7.631923,-1.516935,17.630688,3,2,0,3,paired log-ratio; t CI on mean log-ratio
+ADAPT_T_vs_QUEUE,V,115.520724,96.495528,136.387986,3,2,0,3,paired log-ratio; t CI on mean log-ratio

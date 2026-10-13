@@ -1,0 +1,6 @@
+run_id=varying-formal-dbwrite-r1-fixed100
+server_pid=3700475
+monitor_cpu_set=12
+sample_interval_seconds=1
+started_utc=2026-08-26T00:44:19,604307616+00:00
+output_csv=<REDACTED_LOCAL_PATH>

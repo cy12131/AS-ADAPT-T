@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite AS-ADAPT-T Project Contributors when using the software or experimental datasets. Publication metadata will be added only after confirmation."
+title: "AS-ADAPT-T"
+type: software
+authors:
+  - name: "AS-ADAPT-T Project Contributors"
+abstract: "Experimental server, adaptive thread-pool controllers, statistical-analysis source, and curated experimental datasets for AS-ADAPT-T."
+keywords:
+  - adaptive thread pool
+  - performance engineering
+  - reproducibility
+license: Apache-2.0

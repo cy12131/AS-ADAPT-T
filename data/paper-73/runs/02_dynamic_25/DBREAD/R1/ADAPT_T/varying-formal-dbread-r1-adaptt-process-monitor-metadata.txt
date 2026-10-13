@@ -1,0 +1,6 @@
+run_id=varying-formal-dbread-r1-adaptt
+server_pid=3787533
+monitor_cpu_set=12
+sample_interval_seconds=1
+started_utc=2026-08-26T01:37:48,870446853+00:00
+output_csv=<REDACTED_LOCAL_PATH>

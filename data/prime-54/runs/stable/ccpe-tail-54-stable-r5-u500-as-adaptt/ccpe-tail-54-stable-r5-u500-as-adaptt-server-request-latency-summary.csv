@@ -1,0 +1,2 @@
+measurement_start,measurement_end,window_count,successful_requests,mean_latency_ms,p50_latency_ms,p95_latency_ms,p99_latency_ms,p999_latency_ms,min_latency_ms,max_latency_ms
+2026-10-07T08:03:58.356031888Z,2026-10-07T08:28:58.391600176Z,150,13068129,53.637240,52.920319,79.691775,101.384191,134.217727,0.017712,201.064447

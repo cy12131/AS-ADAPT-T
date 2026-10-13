@@ -1,0 +1,713 @@
+{
+  "expected_count": 54,
+  "found_count": 54,
+  "missing": [],
+  "unexpected_formal_server_csv": [],
+  "jar_hashes": {
+    "1cf520d8a71b72819510aeee0a69b68455ca68b763182073c2059d57b8adb55f": 54
+  },
+  "java_versions": {
+    "openjdk version \"17.0.20\" 2026-07-21": 17,
+    "openjdk version \"17.0.20.1\" 2026-08-18": 37
+  },
+  "status_counts": {
+    "WARNING": 54
+  },
+  "as_state_issue_count": 0,
+  "hlog_summary_mismatch_count": 0,
+  "window_continuity_issue_count": 0,
+  "log_error_count": 0,
+  "dynamic_zero_window_patterns": {
+    "ccpe-tail-54-dynamic-r1-adaptt": [
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+    ],
+    "ccpe-tail-54-dynamic-r1-as-adaptt": [
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+    ],
+    "ccpe-tail-54-dynamic-r1-queue": [
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+    ],
+    "ccpe-tail-54-dynamic-r2-adaptt": [
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+    ],
+    "ccpe-tail-54-dynamic-r2-as-adaptt": [
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+    ],
+    "ccpe-tail-54-dynamic-r2-queue": [
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+    ],
+    "ccpe-tail-54-dynamic-r3-adaptt": [
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+    ],
+    "ccpe-tail-54-dynamic-r3-as-adaptt": [
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+    ],
+    "ccpe-tail-54-dynamic-r3-queue": [
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+    ]
+  },
+  "group_throughputs": {
+    "dynamic|100-10-200-0-50|ADAPT_T": [
+      {
+        "run_id": "ccpe-tail-54-dynamic-r1-adaptt",
+        "round": 1,
+        "throughput": 5863.243505116691,
+        "max_latency": 244.056063,
+        "p999": 97.189887
+      },
+      {
+        "run_id": "ccpe-tail-54-dynamic-r2-adaptt",
+        "round": 2,
+        "throughput": 5976.361786354556,
+        "max_latency": 390.332415,
+        "p999": 99.287039
+      },
+      {
+        "run_id": "ccpe-tail-54-dynamic-r3-adaptt",
+        "round": 3,
+        "throughput": 6038.602556911141,
+        "max_latency": 275.251199,
+        "p999": 100.007935
+      }
+    ],
+    "dynamic|100-10-200-0-50|AS_ADAPT_T": [
+      {
+        "run_id": "ccpe-tail-54-dynamic-r1-as-adaptt",
+        "round": 1,
+        "throughput": 5910.737354449192,
+        "max_latency": 117.374975,
+        "p999": 66.158591
+      },
+      {
+        "run_id": "ccpe-tail-54-dynamic-r2-as-adaptt",
+        "round": 2,
+        "throughput": 6069.992021687834,
+        "max_latency": 127.008767,
+        "p999": 61.210623
+      },
+      {
+        "run_id": "ccpe-tail-54-dynamic-r3-as-adaptt",
+        "round": 3,
+        "throughput": 6077.266088407503,
+        "max_latency": 119.865343,
+        "p999": 61.898751
+      }
+    ],
+    "dynamic|100-10-200-0-50|QUEUE_HYSTERESIS": [
+      {
+        "run_id": "ccpe-tail-54-dynamic-r1-queue",
+        "round": 1,
+        "throughput": 5864.729338503931,
+        "max_latency": 232.259583,
+        "p999": 98.631679
+      },
+      {
+        "run_id": "ccpe-tail-54-dynamic-r2-queue",
+        "round": 2,
+        "throughput": 6011.028269866724,
+        "max_latency": 401.080319,
+        "p999": 106.954751
+      },
+      {
+        "run_id": "ccpe-tail-54-dynamic-r3-queue",
+        "round": 3,
+        "throughput": 5976.572468064856,
+        "max_latency": 444.334079,
+        "p999": 107.479039
+      }
+    ],
+    "static|10|ADAPT_T": [
+      {
+        "run_id": "ccpe-tail-54-stable-r1-u10-adaptt",
+        "round": 1,
+        "throughput": 4016.187595535328,
+        "max_latency": 41.418751,
+        "p999": 20.070399
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r2-u10-adaptt",
+        "round": 2,
+        "throughput": 4103.353845852664,
+        "max_latency": 44.367871,
+        "p999": 21.004287
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r3-u10-adaptt",
+        "round": 3,
+        "throughput": 4104.884015860277,
+        "max_latency": 54.198271,
+        "p999": 20.037631
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r4-u10-adaptt",
+        "round": 4,
+        "throughput": 4108.1076964437525,
+        "max_latency": 45.088767,
+        "p999": 20.070399
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r5-u10-adaptt",
+        "round": 5,
+        "throughput": 3873.278720999859,
+        "max_latency": 39.157759,
+        "p999": 19.513343
+      }
+    ],
+    "static|10|AS_ADAPT_T": [
+      {
+        "run_id": "ccpe-tail-54-stable-r1-u10-as-adaptt",
+        "round": 1,
+        "throughput": 4311.823373410292,
+        "max_latency": 33.685503,
+        "p999": 12.017663
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r2-u10-as-adaptt",
+        "round": 2,
+        "throughput": 4708.792374971437,
+        "max_latency": 26.968063,
+        "p999": 10.018815
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r3-u10-as-adaptt",
+        "round": 3,
+        "throughput": 4789.20400775858,
+        "max_latency": 34.537471,
+        "p999": 11.059199
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r4-u10-as-adaptt",
+        "round": 4,
+        "throughput": 4852.021514978594,
+        "max_latency": 35.127295,
+        "p999": 10.100735
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r5-u10-as-adaptt",
+        "round": 5,
+        "throughput": 4416.389241058534,
+        "max_latency": 28.278783,
+        "p999": 10.035199
+      }
+    ],
+    "static|10|QUEUE_HYSTERESIS": [
+      {
+        "run_id": "ccpe-tail-54-stable-r1-u10-queue",
+        "round": 1,
+        "throughput": 3604.6294544919906,
+        "max_latency": 38.502399,
+        "p999": 16.121855
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r2-u10-queue",
+        "round": 2,
+        "throughput": 3525.9199358052465,
+        "max_latency": 37.060607,
+        "p999": 15.073279
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r3-u10-queue",
+        "round": 3,
+        "throughput": 3576.911949756376,
+        "max_latency": 34.570239,
+        "p999": 15.269887
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r4-u10-queue",
+        "round": 4,
+        "throughput": 3488.364779198125,
+        "max_latency": 34.471935,
+        "p999": 15.040511
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r5-u10-queue",
+        "round": 5,
+        "throughput": 3320.394244720019,
+        "max_latency": 28.033023,
+        "p999": 15.007743
+      }
+    ],
+    "static|100|ADAPT_T": [
+      {
+        "run_id": "ccpe-tail-54-stable-r1-u100-adaptt",
+        "round": 1,
+        "throughput": 8888.23003299603,
+        "max_latency": 164.102143,
+        "p999": 71.761919
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r2-u100-adaptt",
+        "round": 2,
+        "throughput": 8790.387598893596,
+        "max_latency": 180.223999,
+        "p999": 75.038719
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r3-u100-adaptt",
+        "round": 3,
+        "throughput": 8906.609186498295,
+        "max_latency": 126.222335,
+        "p999": 72.155135
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r4-u100-adaptt",
+        "round": 4,
+        "throughput": 8874.160229101733,
+        "max_latency": 167.116799,
+        "p999": 72.024063
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r5-u100-adaptt",
+        "round": 5,
+        "throughput": 8889.469687567182,
+        "max_latency": 194.772991,
+        "p999": 75.169791
+      }
+    ],
+    "static|100|AS_ADAPT_T": [
+      {
+        "run_id": "ccpe-tail-54-stable-r1-u100-as-adaptt",
+        "round": 1,
+        "throughput": 8850.7181278373,
+        "max_latency": 104.071167,
+        "p999": 50.397183
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r2-u100-as-adaptt",
+        "round": 2,
+        "throughput": 8820.476188778777,
+        "max_latency": 88.276991,
+        "p999": 51.773439
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r3-u100-as-adaptt",
+        "round": 3,
+        "throughput": 8850.891239189052,
+        "max_latency": 97.255423,
+        "p999": 50.069503
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r4-u100-as-adaptt",
+        "round": 4,
+        "throughput": 8876.541716714799,
+        "max_latency": 98.172927,
+        "p999": 50.003967
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r5-u100-as-adaptt",
+        "round": 5,
+        "throughput": 8863.440824314715,
+        "max_latency": 92.012543,
+        "p999": 50.233343
+      }
+    ],
+    "static|100|QUEUE_HYSTERESIS": [
+      {
+        "run_id": "ccpe-tail-54-stable-r1-u100-queue",
+        "round": 1,
+        "throughput": 8797.119758867075,
+        "max_latency": 370.933759,
+        "p999": 128.253951
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r2-u100-queue",
+        "round": 2,
+        "throughput": 8607.883149772653,
+        "max_latency": 433.586175,
+        "p999": 133.955583
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r3-u100-queue",
+        "round": 3,
+        "throughput": 8859.088748161861,
+        "max_latency": 360.447999,
+        "p999": 120.389631
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r4-u100-queue",
+        "round": 4,
+        "throughput": 8810.391398668646,
+        "max_latency": 380.370943,
+        "p999": 126.025727
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r5-u100-queue",
+        "round": 5,
+        "throughput": 8811.208642312504,
+        "max_latency": 351.535103,
+        "p999": 116.785151
+      }
+    ],
+    "static|500|ADAPT_T": [
+      {
+        "run_id": "ccpe-tail-54-stable-r1-u500-adaptt",
+        "round": 1,
+        "throughput": 8295.486676719405,
+        "max_latency": 686.817279,
+        "p999": 219.807743
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r2-u500-adaptt",
+        "round": 2,
+        "throughput": 8216.95857562402,
+        "max_latency": 595.591167,
+        "p999": 195.559423
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r3-u500-adaptt",
+        "round": 3,
+        "throughput": 8318.653224185444,
+        "max_latency": 748.158975,
+        "p999": 203.423743
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r4-u500-adaptt",
+        "round": 4,
+        "throughput": 8310.912907554224,
+        "max_latency": 776.470527,
+        "p999": 245.628927
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r5-u500-adaptt",
+        "round": 5,
+        "throughput": 8318.878444950735,
+        "max_latency": 600.834047,
+        "p999": 200.802303
+      }
+    ],
+    "static|500|AS_ADAPT_T": [
+      {
+        "run_id": "ccpe-tail-54-stable-r1-u500-as-adaptt",
+        "round": 1,
+        "throughput": 8744.345102597685,
+        "max_latency": 187.957247,
+        "p999": 135.921663
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r2-u500-as-adaptt",
+        "round": 2,
+        "throughput": 8726.852386377233,
+        "max_latency": 198.311935,
+        "p999": 134.610943
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r3-u500-as-adaptt",
+        "round": 3,
+        "throughput": 8751.602912717663,
+        "max_latency": 196.345855,
+        "p999": 138.018815
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r4-u500-as-adaptt",
+        "round": 4,
+        "throughput": 8775.2237146367,
+        "max_latency": 220.069887,
+        "p999": 135.397375
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r5-u500-as-adaptt",
+        "round": 5,
+        "throughput": 8711.879435530664,
+        "max_latency": 201.064447,
+        "p999": 134.217727
+      }
+    ],
+    "static|500|QUEUE_HYSTERESIS": [
+      {
+        "run_id": "ccpe-tail-54-stable-r1-u500-queue",
+        "round": 1,
+        "throughput": 8356.23324081001,
+        "max_latency": 1580.204031,
+        "p999": 464.257023
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r2-u500-queue",
+        "round": 2,
+        "throughput": 8346.151903618278,
+        "max_latency": 1139.802111,
+        "p999": 382.205951
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r3-u500-queue",
+        "round": 3,
+        "throughput": 8341.651271684019,
+        "max_latency": 2243.952639,
+        "p999": 427.819007
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r4-u500-queue",
+        "round": 4,
+        "throughput": 8400.320777783661,
+        "max_latency": 1466.957823,
+        "p999": 540.540927
+      },
+      {
+        "run_id": "ccpe-tail-54-stable-r5-u500-queue",
+        "round": 5,
+        "throughput": 8336.47865322127,
+        "max_latency": 1522.532351,
+        "p999": 447.217663
+      }
+    ]
+  },
+  "total_successes": 561070013,
+  "total_failures": 0,
+  "controller_timing_global": {
+    "min_mean_ns": 186651.667,
+    "max_mean_ns": 6855044.267,
+    "max_p95_ns": 32833535,
+    "max_single_ns": 62259199
+  }
+}

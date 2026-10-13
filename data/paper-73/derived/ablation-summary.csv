@@ -1,0 +1,4 @@
+run_id,application,users,round,policy,windows,active_windows,successful_requests,failed_requests,rejected_tasks,throughput_rps,mean_latency_ms,weighted_window_p99_ms,minimum_pool_size,maximum_pool_size,final_pool_size,adjustment_count,thread_total_variation
+varying-ablation-no-stable-r1-as-no-stable,PRIME,,R1,AS_NO_STABLE,150,120,9016195,0,0,7513.279244275918,10.88443922800971,36.78882730298324,1,21,8,118,443
+varying-ablation-no-stable-r2-as-no-stable,PRIME,,R2,AS_NO_STABLE,150,120,9201030,0,0,7667.365857432157,10.563132648626295,41.04061906712205,1,28,18,117,449
+varying-ablation-no-stable-r3-as-no-stable,PRIME,,R3,AS_NO_STABLE,150,120,9221934,0,0,7684.749000476742,10.556831964481637,39.938582426360675,1,27,17,117,448

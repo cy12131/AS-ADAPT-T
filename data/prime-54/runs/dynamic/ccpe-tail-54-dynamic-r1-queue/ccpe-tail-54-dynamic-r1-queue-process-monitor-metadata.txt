@@ -1,0 +1,6 @@
+run_id=ccpe-tail-54-dynamic-r1-queue
+server_pid=1027694
+monitor_cpu_set=12
+sample_interval_seconds=1
+started_utc=2026-09-22T18:58:36,758586245+00:00
+output_csv=<REDACTED_LOCAL_PATH>

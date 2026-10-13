@@ -1,0 +1,6 @@
+run_id=ccpe-tail-54-dynamic-r1-adaptt
+server_pid=984131
+monitor_cpu_set=12
+sample_interval_seconds=1
+started_utc=2026-09-22T18:32:06,322578781+00:00
+output_csv=<REDACTED_LOCAL_PATH>

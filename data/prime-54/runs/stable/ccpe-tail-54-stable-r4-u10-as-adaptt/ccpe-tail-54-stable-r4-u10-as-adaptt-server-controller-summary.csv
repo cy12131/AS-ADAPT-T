@@ -1,0 +1,2 @@
+available,controller_decision_count,candidate_count,accepted_count,rejected_count,controller_rollback_count,stable_enter_count,recovery_count,controller_decision_total_ns,controller_decision_mean_ns,controller_decision_p95_ns,controller_decision_max_ns
+true,150,10,3,6,6,1,1,116014114,773425.920,2834431,11837439

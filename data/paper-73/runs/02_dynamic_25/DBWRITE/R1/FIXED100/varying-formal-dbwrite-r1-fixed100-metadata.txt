@@ -1,0 +1,13 @@
+run_id=varying-formal-dbwrite-r1-fixed100
+started_utc=2026-08-26T00:44:17+00:00
+application=DBWRITE
+policy_name=FIXED100
+experiment_policy=FIXED
+worker_initial_size=100
+adapt_objective=MEAN
+java_cpu_set=4,6
+mysql_cpu_set=8 10
+jvm_heap=-Xms2g -Xmx2g
+java_version=openjdk version "17.0.19" 2026-04-21
+jar_sha256=3b74081778df70a18900815402e1f9bc332f4c0107fcc26918aac5b5a6043cd4
+metrics_csv=<REDACTED_LOCAL_PATH>

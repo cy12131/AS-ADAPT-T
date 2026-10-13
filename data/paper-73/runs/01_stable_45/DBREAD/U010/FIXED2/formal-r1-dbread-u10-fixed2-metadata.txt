@@ -1,0 +1,12 @@
+run_id=formal-r1-dbread-u10-fixed2
+started_utc=2026-08-24T07:13:28+00:00
+application=DBREAD
+policy_name=FIXED2
+experiment_policy=FIXED
+worker_initial_size=2
+adapt_objective=MEAN
+java_cpu_set=4,6
+mysql_cpu_set=8 10
+jvm_heap=-Xms2g -Xmx2g
+java_version=openjdk version "17.0.19" 2026-04-21
+metrics_csv=<REDACTED_LOCAL_PATH>

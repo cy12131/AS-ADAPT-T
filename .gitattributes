@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.hlog binary
+*.png binary
+*.pdf binary
+data/prime-54/README.md whitespace=-blank-at-eof
+data/paper-73/README.md whitespace=-blank-at-eof
+data/sensitivity-21/README.md whitespace=-blank-at-eof

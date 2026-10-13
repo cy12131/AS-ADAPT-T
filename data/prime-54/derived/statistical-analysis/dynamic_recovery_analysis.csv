@@ -1,0 +1,13 @@
+run_id,round,transition,workload_change_window,workload_change_timestamp,change_detection_window,detection_delay_s,recovery_baseline_start_window,search_restart_window,first_accepted_window,stable_reentry_window,baseline_rebuild_time_s,search_duration_s,time_to_restable_s,pending_windows_in_stage,interpretation
+ccpe-tail-54-dynamic-r1-as-adaptt,1,100_to_10,31,2026-09-22T19:30:12.977224943Z,33,29.996519,34,37,NA,51,30.000023,149.999408,209.995950,2,triggered and completed baseline/search/stable cycle
+ccpe-tail-54-dynamic-r1-as-adaptt,1,10_to_200,61,2026-09-22T19:35:12.973802723Z,62,20.000903,63,66,71,82,30.006001,169.998550,220.005454,1,triggered and completed baseline/search/stable cycle
+ccpe-tail-54-dynamic-r1-as-adaptt,1,200_to_0,91,2026-09-22T19:40:12.977705737Z,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,no trigger; 3 consecutive change windows not reached
+ccpe-tail-54-dynamic-r1-as-adaptt,1,0_to_50,121,2026-09-22T19:45:12.973179797Z,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,no trigger; 3 consecutive change windows not reached
+ccpe-tail-54-dynamic-r2-as-adaptt,2,100_to_10,31,2026-10-06T18:56:13.074019361Z,33,30.000022,34,37,48,59,30.002719,229.997843,290.000584,2,triggered and completed baseline/search/stable cycle
+ccpe-tail-54-dynamic-r2-as-adaptt,2,10_to_200,61,2026-10-06T19:01:13.074026277Z,63,30.006696,64,67,NA,81,30.000996,149.996999,210.004691,2,triggered and completed baseline/search/stable cycle
+ccpe-tail-54-dynamic-r2-as-adaptt,2,200_to_0,91,2026-10-06T19:06:13.077835951Z,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,no trigger; 3 consecutive change windows not reached
+ccpe-tail-54-dynamic-r2-as-adaptt,2,0_to_50,121,2026-10-06T19:11:13.074040662Z,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,no trigger; 3 consecutive change windows not reached
+ccpe-tail-54-dynamic-r3-as-adaptt,3,100_to_10,31,2026-10-07T00:39:38.906828389Z,33,29.995909,34,37,NA,51,29.997908,150.001114,209.994931,2,triggered and completed baseline/search/stable cycle
+ccpe-tail-54-dynamic-r3-as-adaptt,3,10_to_200,61,2026-10-07T00:44:38.902832347Z,63,30.002498,64,67,NA,81,30.000386,149.995049,209.997933,2,triggered and completed baseline/search/stable cycle
+ccpe-tail-54-dynamic-r3-as-adaptt,3,200_to_0,91,2026-10-07T00:49:38.907714685Z,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,no trigger; 3 consecutive change windows not reached
+ccpe-tail-54-dynamic-r3-as-adaptt,3,0_to_50,121,2026-10-07T00:54:38.900649799Z,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,no trigger; 3 consecutive change windows not reached

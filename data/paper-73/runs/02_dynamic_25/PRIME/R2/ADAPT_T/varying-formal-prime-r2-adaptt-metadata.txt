@@ -1,0 +1,13 @@
+run_id=varying-formal-prime-r2-adaptt
+started_utc=2026-08-26T01:11:05+00:00
+application=PRIME
+policy_name=ADAPT_T
+experiment_policy=ADAPT_T
+worker_initial_size=1
+adapt_objective=MEAN
+java_cpu_set=4,6
+mysql_cpu_set=8 10
+jvm_heap=-Xms2g -Xmx2g
+java_version=openjdk version "17.0.19" 2026-04-21
+jar_sha256=3b74081778df70a18900815402e1f9bc332f4c0107fcc26918aac5b5a6043cd4
+metrics_csv=<REDACTED_LOCAL_PATH>

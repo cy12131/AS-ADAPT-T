@@ -1,0 +1,12 @@
+run_id=formal-r1-prime-u500-adaptt
+started_utc=2026-08-24T02:23:54+00:00
+application=PRIME
+policy_name=ADAPT_T
+experiment_policy=ADAPT_T
+worker_initial_size=1
+adapt_objective=MEAN
+java_cpu_set=4,6
+mysql_cpu_set=8 10
+jvm_heap=-Xms2g -Xmx2g
+java_version=openjdk version "17.0.19" 2026-04-21
+metrics_csv=<REDACTED_LOCAL_PATH>

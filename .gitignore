@@ -1,0 +1,57 @@
+# Final publication allowlist: deny every root entry first.
+/*
+
+# Repository essentials.
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/CITATION.cff
+!/pom.xml
+# Root software license (Apache-2.0); the data license is allowlisted below.
+!/LICENSE
+
+# Java/Maven source and tests.
+!/src/
+!/src/**
+
+# Only the analysis source files needed to review the published datasets.
+!/analysis/
+/analysis/*
+!/analysis/analyze_ccpe_54.py
+!/analysis/analyze_formal_r1.py
+!/analysis/analyze_prime_repeats.py
+!/analysis/audit_ccpe_54.py
+!/analysis/HlogAudit.java
+
+# Public data uses an explicit dataset allowlist.
+!/data/
+/data/*
+!/data/README.md
+!/data/LICENSE
+!/data/prime-54/
+!/data/prime-54/**
+!/data/paper-73/
+!/data/paper-73/**
+!/data/sensitivity-21/
+!/data/sensitivity-21/**
+
+# Defensive ignores inside allowed trees.
+**/target/
+**/__pycache__/
+*.py[cod]
+*.log
+.env
+.env.*
+application-local.properties
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.pid
+*.stopped
+*.failed-*
+*.tmp
+*.temp
+*~

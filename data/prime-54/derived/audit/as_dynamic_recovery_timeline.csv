@@ -1,0 +1,7 @@
+run_id,recovery_ordinal,trigger_window,trigger_elapsed_s,baseline_start_window,baseline_established_window,baseline_established_elapsed_s,search_restart_window,search_restart_elapsed_s,stable_reentry_window,stable_reentry_elapsed_s
+ccpe-tail-54-dynamic-r1-as-adaptt,1,33,330.031715,34,36,360.031738,37,370.031145,51,510.031146
+ccpe-tail-54-dynamic-r1-as-adaptt,2,62,620.032677,63,65,650.038678,66,660.034679,82,820.037228
+ccpe-tail-54-dynamic-r2-as-adaptt,1,33,330.031899,34,36,360.034618,37,370.031876,59,590.032461
+ccpe-tail-54-dynamic-r2-as-adaptt,2,63,630.038580,64,66,660.039576,67,670.033575,81,810.036575
+ccpe-tail-54-dynamic-r3-as-adaptt,1,33,330.029899,34,36,360.027807,37,370.027805,51,510.028921
+ccpe-tail-54-dynamic-r3-as-adaptt,2,63,630.032492,64,66,660.032878,67,670.032878,81,810.027927

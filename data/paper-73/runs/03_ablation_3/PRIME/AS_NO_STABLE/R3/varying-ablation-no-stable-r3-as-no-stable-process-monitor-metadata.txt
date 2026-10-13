@@ -1,0 +1,6 @@
+run_id=varying-ablation-no-stable-r3-as-no-stable
+server_pid=3990305
+monitor_cpu_set=12
+sample_interval_seconds=1
+started_utc=2026-08-26T04:20:11,484898411+00:00
+output_csv=<REDACTED_LOCAL_PATH>

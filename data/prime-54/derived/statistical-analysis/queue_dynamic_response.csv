@@ -1,0 +1,13 @@
+run_id,round,transition,desired_direction,first_matching_adjustment_window,response_delay_s,adjustments_in_stage,run_direction_reversals,run_A,run_V
+ccpe-tail-54-dynamic-r1-queue,1,100_to_10,DECREASE,33,29.996758,11,6,56,280
+ccpe-tail-54-dynamic-r1-queue,1,10_to_200,INCREASE,64,40.004504,11,6,56,280
+ccpe-tail-54-dynamic-r1-queue,1,200_to_0,DECREASE,92,19.985785,13,6,56,280
+ccpe-tail-54-dynamic-r1-queue,1,0_to_50,INCREASE,122,19.999987,8,6,56,280
+ccpe-tail-54-dynamic-r2-queue,2,100_to_10,DECREASE,33,29.997308,8,6,59,295
+ccpe-tail-54-dynamic-r2-queue,2,10_to_200,INCREASE,62,20.009980,13,6,59,295
+ccpe-tail-54-dynamic-r2-queue,2,200_to_0,DECREASE,91,9.989319,15,6,59,295
+ccpe-tail-54-dynamic-r2-queue,2,0_to_50,INCREASE,123,30.005681,10,6,59,295
+ccpe-tail-54-dynamic-r3-queue,3,100_to_10,DECREASE,40,99.984284,4,6,56,279
+ccpe-tail-54-dynamic-r3-queue,3,10_to_200,INCREASE,61,10.015474,13,6,56,279
+ccpe-tail-54-dynamic-r3-queue,3,200_to_0,DECREASE,92,19.994915,15,6,56,279
+ccpe-tail-54-dynamic-r3-queue,3,0_to_50,INCREASE,122,20.000035,13,6,56,279

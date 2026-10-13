@@ -1,0 +1,16 @@
+run_id=ccpe-tail-54-stable-r5-u500-adaptt
+started_utc=2026-10-07T08:56:38+00:00
+application=PRIME
+policy_name=ADAPT_T
+experiment_policy=ADAPT_T
+worker_initial_size=1
+adapt_objective=MEAN
+java_cpu_set=4,6
+mysql_cpu_set=8 10
+jvm_heap=-Xms2g -Xmx2g
+java_version=openjdk version "17.0.20.1" 2026-08-18
+jar_sha256=1cf520d8a71b72819510aeee0a69b68455ca68b763182073c2059d57b8adb55f
+metrics_csv=<REDACTED_LOCAL_PATH>
+request_latency_histogram=<REDACTED_LOCAL_PATH>
+request_latency_summary=<REDACTED_LOCAL_PATH>
+controller_summary=<REDACTED_LOCAL_PATH>

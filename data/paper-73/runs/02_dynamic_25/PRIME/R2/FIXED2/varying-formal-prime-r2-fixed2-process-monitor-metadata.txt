@@ -1,0 +1,6 @@
+run_id=varying-formal-prime-r2-fixed2
+server_pid=3097097
+monitor_cpu_set=12
+sample_interval_seconds=1
+started_utc=2026-08-25T18:34:06,709419770+00:00
+output_csv=<REDACTED_LOCAL_PATH>
